@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Comforter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comforter/v3/H4clBXOCl8nQnlaql3Qq75u9qKS-aw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255),
+    rgb(169, 102, 236)
+  );
+}
+h1 {
+  display: block;
+  font-family: "Comforter", "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  width: 1078px;
+  background-color: rgb(229, 204, 254);
+}
+h3 {
+  font-family: "Comforter", "Times New Roman", Times, serif;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+}
+footer {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  box-sizing: border-box;
+  grid-template: repeat(7, 200px) / repeat(6, 175px);
+  justify-content: center;
+  margin: 25px;
+  gap: 5px;
+}
+.task {
+  border: 1px solid;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+}
+.day {
+  display: flex;
+  width: 175px;
+  background-color: rgb(229, 204, 254);
+  align-items: center;
+}
